@@ -1,0 +1,97 @@
+@media (max-width: 968px) {
+  .header-top {
+    flex-direction: row-reverse;
+  }
+  .header-top .icon-right {
+    display: none;
+  }
+  .header-bottom {
+    display: none;
+  }
+
+  .hero {
+    position: static;
+    background: none;
+    background: url("assets/images/Hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero-container {
+    margin-top: 15rem;
+    text-align: center;
+    position: static;
+    top: 30%;
+    padding: 2rem 4rem;
+    width: 100%;
+  }
+
+  .value {
+    width: 100%;
+  }
+  .value .box-container {
+    justify-content: center;
+  }
+  .value .box-container .box {
+    width: 100%;
+  }
+
+  .product {
+    margin-top: 2rem;
+  }
+
+  .product .box-container {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .product .box-container .box {
+    flex: 1 1 auto;
+  }
+
+  .product .box .image-box {
+    max-height: 200px;
+  }
+
+  .start {
+    display: block;
+  }
+  .start .left {
+    width: 100%;
+    text-align: center;
+  }
+  .start .right {
+    display: none;
+  }
+
+  .join{
+    text-align: center;
+  }
+
+  .join .email-box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 20%;
+  }
+  .join input {
+    display: none;
+  }
+
+ 
+  footer .top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  footer .top>div{
+    flex: 1 1 auto;
+  }
+
+  footer .email {
+    display: none !important;
+  }
+}
